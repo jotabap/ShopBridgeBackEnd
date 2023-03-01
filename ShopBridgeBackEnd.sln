@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridgeBackEnd", "ShopBridgeBackEnd\ShopBridgeBackEnd.csproj", "{E6D00852-550C-48EF-A6F7-97DBAFDAD6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridgeBackEnd", "ShopBridgeBackEnd\ShopBridgeBackEnd.csproj", "{E6D00852-550C-48EF-A6F7-97DBAFDAD6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Entities", "ShopBridge.Entities\ShopBridge.Entities.csproj", "{84731EAD-179A-4199-9D87-B10E6694DE04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopBridge.Entities", "ShopBridge.Entities\ShopBridge.Entities.csproj", "{84731EAD-179A-4199-9D87-B10E6694DE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Models", "ShopBridge.Models\ShopBridge.Models.csproj", "{B864AEAF-BFDB-4F54-A1E9-0E161D9159AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopBridge.Utilities", "ShopBridge.Utilities\ShopBridge.Utilities.csproj", "{40EBFA2D-5DC6-4CAF-B0BF-BD58102E90C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{84731EAD-179A-4199-9D87-B10E6694DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84731EAD-179A-4199-9D87-B10E6694DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84731EAD-179A-4199-9D87-B10E6694DE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B864AEAF-BFDB-4F54-A1E9-0E161D9159AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B864AEAF-BFDB-4F54-A1E9-0E161D9159AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B864AEAF-BFDB-4F54-A1E9-0E161D9159AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B864AEAF-BFDB-4F54-A1E9-0E161D9159AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EBFA2D-5DC6-4CAF-B0BF-BD58102E90C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EBFA2D-5DC6-4CAF-B0BF-BD58102E90C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EBFA2D-5DC6-4CAF-B0BF-BD58102E90C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EBFA2D-5DC6-4CAF-B0BF-BD58102E90C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
